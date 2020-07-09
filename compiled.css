@@ -14,7 +14,28 @@ body {
 body .container {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  padding: 75px 160px;
+  padding: 70px 160px;
+  overflow: hidden;
+}
+body .container .left {
+  float: left;
+  width: 50%;
+}
+body .container .left .mid {
+  margin-top: 230px;
+  color: #fff;
+}
+body .container .left .mid h1 {
+  font-size: 3rem;
+  line-height: 50px;
+}
+body .container .left .mid p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+body .container .right {
+  float: right;
+  width: 100%;
 }
 
 /*# sourceMappingURL=compiled.css.map */

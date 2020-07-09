@@ -27,10 +27,32 @@ body {
     .container {
         font-family: $font-family;
         font-size: $Font-size;
-        padding: 75px 160px;
+        padding: 70px 160px;
+        overflow: hidden;
 
-        .left {}
+        .left {
+            float: left;
+            width: 50%;
+            
+            .mid {
+                margin-top: 230px;
+                color: #fff;
+                
+                h1 {
+                    font-size: 3rem;
+                    line-height: 50px;
+                }
+                
+                p {
+                    font-size: 1rem;
+                    margin-top: 20px;
+                }
+            }
+        }
 
-        .right {}
+        .right {
+            float: right;
+            width: 100%;
+        }
     }
 }
