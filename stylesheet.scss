@@ -11,16 +11,26 @@ $font-family: 'Poppins',
 sans-serif;
 //Weights: 400, 500, 600, 700
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
+    background-image: url("./images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: $Red;
+
     .container {
-        
-        
-        .left {
-            
-        }
-        
-        .right {
-            
-        }
+        font-family: $font-family;
+        font-size: $Font-size;
+        padding: 75px 160px;
+
+        .left {}
+
+        .right {}
     }
 }
