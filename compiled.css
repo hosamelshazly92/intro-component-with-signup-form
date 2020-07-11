@@ -93,4 +93,82 @@ body .container .right form p .span {
   font-weight: 600;
 }
 
+@media (max-width: 960px) {
+  body {
+    background-image: url("./images/bg-intro-mobile.png");
+  }
+  body .container {
+    padding: 100px 25px;
+  }
+  body .container .left {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  body .container .left .mid {
+    margin-top: 0;
+  }
+  body .container .left .mid h1 {
+    font-size: 3rem;
+    line-height: 70px;
+  }
+  body .container .left .mid p {
+    font-size: 1.8rem;
+    margin-top: 40px;
+  }
+  body .container .right {
+    float: none;
+    width: 100%;
+    margin-top: 80px;
+  }
+  body .container .right button {
+    height: 100px;
+    border: none;
+    font-size: 1.8rem;
+    line-height: 40px;
+    padding: 0 20%;
+  }
+  body .container .right form {
+    margin-top: 50px;
+  }
+  body .container .right form .hint {
+    height: 25px;
+  }
+  body .container .right form .first-name {
+    height: 60px;
+  }
+  body .container .right form .first-name::placeholder {
+    font-size: 1rem;
+  }
+  body .container .right form .last-name {
+    height: 60px;
+  }
+  body .container .right form .last-name::placeholder {
+    font-size: 1rem;
+  }
+  body .container .right form .email {
+    height: 60px;
+  }
+  body .container .right form .email::placeholder {
+    font-size: 1rem;
+  }
+  body .container .right form .password {
+    height: 60px;
+  }
+  body .container .right form .password::placeholder {
+    font-size: 1rem;
+  }
+  body .container .right form .submit {
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 80px;
+  }
+  body .container .right form p {
+    margin-top: 25px;
+    font-size: 1rem;
+    padding: 0 20%;
+  }
+}
+
 /*# sourceMappingURL=compiled.css.map */

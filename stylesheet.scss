@@ -139,3 +139,100 @@ body {
         }
     }
 }
+
+@media (max-width: 960px) {
+    body {
+        background-image: url("./images/bg-intro-mobile.png");
+
+        .container {
+            padding: 100px 25px;
+
+            .left {
+                float: none;
+                width: 100%;
+                padding-right: 0;
+                text-align: center;
+
+                .mid {
+                    margin-top: 0;
+
+                    h1 {
+                        font-size: 3rem;
+                        line-height: 70px;
+                    }
+
+                    p {
+                        font-size: 1.8rem;
+                        margin-top: 40px;
+                    }
+                }
+            }
+
+            .right {
+                float: none;
+                width: 100%;
+                margin-top: 80px;
+
+                button {
+                    height: 100px;
+                    border: none;
+                    font-size: 1.8rem;
+                    line-height: 40px;
+                    padding: 0 20%;
+                }
+
+                form {
+                    margin-top: 50px;
+
+                    .hint {
+                        height: 25px;
+                    }
+
+                    .first-name {
+                        height: 60px;
+
+                        &::placeholder {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .last-name {
+                        height: 60px;
+
+                        &::placeholder {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .email {
+                        height: 60px;
+
+                        &::placeholder {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .password {
+                        height: 60px;
+
+                        &::placeholder {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .submit {
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        height: 80px;
+                    }
+
+                    p {
+                        margin-top: 25px;
+                        font-size: 1rem;
+                        padding: 0 20%;
+                    }
+                }
+            }
+        }
+    }
+}
