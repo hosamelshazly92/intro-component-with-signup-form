@@ -33,24 +33,36 @@
 
             <form>
                 <label id="first-label" for="first-name"></label>
-                <input id="first-name" class="first-name" type="text" name="first-name" placeholder="First Name">
+                <input id="first-name" class="first-name alert" type="text" name="first-name" placeholder="First Name">
 
-                <div class="hint"></div>
+                <div class="hint">
+                    <span class="text">This field cannot be empty</span>
+                    <img class="error" src="./images/icon-error.svg" alt="IMG">
+                </div>
 
                 <label id="last-label" for="last-name"></label>
-                <input id="last-name" class="last-name" type="text" name="last-name" placeholder="Last Name">
+                <input id="last-name" class="last-name alert" type="text" name="last-name" placeholder="Last Name">
 
-                <div class="hint"></div>
+                <div class="hint">
+                    <span class="text">This field cannot be empty</span>
+                    <img class="error" src="./images/icon-error.svg" alt="IMG">
+                </div>
 
                 <label id="email-label" for="email"></label>
-                <input id="email" class="email" type="email" name="email" placeholder="Email Address">
+                <input id="email" class="email alert" type="email" name="email" placeholder="Email Address">
 
-                <div class="hint"></div>
+                <div class="hint">
+                    <span class="text">This field cannot be empty</span>
+                    <img class="error" src="./images/icon-error.svg" alt="IMG">
+                </div>
 
                 <label id="password-label" for="password"></label>
-                <input id="password" class="password" type="password" name="password" placeholder="Password">
+                <input id="password" class="password alert" type="password" name="password" placeholder="Password">
 
-                <div class="hint"></div>
+                <div class="hint">
+                    <span class="text">This field cannot be empty</span>
+                    <img class="error" src="./images/icon-error.svg" alt="IMG">
+                </div>
 
                 <input id="submit" class="submit" type="submit" value="CLAIM YOUR FREE TRIAL">
 
@@ -59,6 +71,7 @@
         </section>
     </main>
 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
